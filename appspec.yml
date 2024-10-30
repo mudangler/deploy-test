@@ -2,5 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/wp-content/themes/twentytwentyfour
-    overwrite: true
+    destination: /tmp/deployment
+hooks:
+  AfterInstall:
+    - location: scripts/rsync_deploy.sh
+      timeout: 300
+      runas: root

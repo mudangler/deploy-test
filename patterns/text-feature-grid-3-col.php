@@ -21,7 +21,7 @@
 		<!-- /wp:spacer -->
 
 		<!-- wp:paragraph {"align":"center"} -->
-		<p class="has-text-align-center"><?php echo esc_html_x( 'テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト', 'Sub-heading of the features', 'twentytwentyfour' ); ?></p>
+		<p class="has-text-align-center"><?php echo esc_html_x( 'テストテストテストテストテストテステストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト', 'Sub-heading of the features', 'twentytwentyfour' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

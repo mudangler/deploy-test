@@ -3,3 +3,8 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/wp-content/themes/twentytwentyfour
+hooks:
+  AfterInstall:
+    - location: scripts/rsync_deploy.sh
+      timeout: 300
+      runas: root

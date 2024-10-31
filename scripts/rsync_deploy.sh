@@ -1,2 +1,3 @@
 # scripts/rsync_deploy.sh
-rsync -acv /tmp/deployment/ /var/www/html/wp-content/themes/twentytwentyfour/
+#!/bin/bash
+rsync -acv --checksum /tmp/deployment/ /var/www/html/wp-content/themes/twentytwentyfour/
